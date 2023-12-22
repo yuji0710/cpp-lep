@@ -4,7 +4,8 @@ struct node
 {
     int data;
     struct node * next;
-};
+}
+
 void print(struct node *ptr)
 {   while(ptr->next!=NULL)
     {
