@@ -33,7 +33,6 @@ int main()
         a[j+1]=c;
         
     }
-     
    // first number never sorting in this method;
     for (int i = 0; i < n; i++)
     {
