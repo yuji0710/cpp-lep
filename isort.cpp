@@ -18,6 +18,7 @@ int main()
     {
         cout<<"a["<<i<<"] = "<<a[i]<<endl;
     }
+
     cout<<"sorting array using insertion sort \n ";
     int c=0;
     for (int i = 1; i < n; i++)
