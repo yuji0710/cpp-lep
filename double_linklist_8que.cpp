@@ -113,8 +113,6 @@ void i_e()
     rear=temp;
 }
 
-
-
 //delete the node
 
 void d_b()
