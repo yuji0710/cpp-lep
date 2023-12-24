@@ -40,7 +40,7 @@ int main()
     }
     if (z>nz)
     {
-        cout<<"this is matrix";
+        cout<<"this is sparse matrix";
     }
     else
     {
