@@ -6,7 +6,8 @@
   <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
 </div>
-<img src="https://komarev.com/ghpvc/?username=yuji0710&style=flat-square&color=blue" alt=""/>
+
+<img align ="center" src="https://komarev.com/ghpvc/?username=yuji0710&style=flat-square&color=blue" alt=""/>
 <br>
 <h1 align="center"> DSA in c++</h1>
 <h3 align="right">author:-yuji </h3>
