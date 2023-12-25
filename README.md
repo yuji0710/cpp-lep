@@ -10,6 +10,6 @@
 <img  src="https://komarev.com/ghpvc/?username=yuji0710&style=flat-square&color=blue" alt=""/>
   </div>
 <br>
-<h3> I am a student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Gls university</h3>
+<h3> I am a student <img  src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="60"> from Gls university</h3>
 <h1 align="center"> DSA in c++</h1>
 <h3 align="right">author:-yuji </h3>
