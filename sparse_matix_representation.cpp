@@ -70,9 +70,6 @@ int main()
             }
             cout<<endl;
         }
-        
-        
-
     }
     else
     {
