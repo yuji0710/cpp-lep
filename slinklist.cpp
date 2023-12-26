@@ -17,7 +17,7 @@ void print()
 }
 int main()
 {
-    struct node* temp;
+   node* temp;
 
     int n;
     cout<<"enter size of link list : ";
