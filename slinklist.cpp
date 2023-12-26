@@ -1,49 +1,47 @@
 #include<iostream>
 using namespace std;
-struct node
-{
+class node
+{   public:
     int data;
-    struct node *next;
+     node *next;
 };
-void print(struct node *str)
-{
+node *start=NULL;
+node *rear=NULL;
+void print()
+{   node *str=start;
+    while (str!=NULL)
+    {
     cout<<str->data<<"->";
    str=str->next;
+    }
 }
 int main()
 {
-    struct node* head=NULL;
     struct node* temp;
-    struct node* next_node;
 
     int n;
-    cout<<"enter number ";
+    cout<<"enter size of link list : ";
     cin>>n;
     
     while(n>0)
-    {   
-        temp=(struct node *)malloc(sizeof(struct node *));
+    {   int d;
         cout<<"enter value :- ";
-        cin>>temp->data;
+        cin>>d;
+        temp=new node();
+        temp->data=d;
+        
         temp->next=0;
-        if(head==NULL)
+        if(start==NULL)
         {
-            head=next_node=temp;
+            start=rear=temp;
             
         }
         else
         {
-            next_node->next=temp;
-            next_node=temp;
+            rear->next=temp;
+            rear=temp;
         }
         n--;
     }
-
-    while(head!=0)
-    {
-        cout<<head->data<<"->";
-        head=head->next;
-    }
-
-
+    print();
 }
