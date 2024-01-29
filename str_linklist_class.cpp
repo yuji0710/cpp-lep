@@ -21,11 +21,9 @@ class linkedlist
             p=temp;
         }
         else{
-            
+                   
         }
     }
-
-
 };
 int main()
 {
