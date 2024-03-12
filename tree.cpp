@@ -43,6 +43,7 @@ void create()
                     ptr = ptr->right;
                 }
             }
+
             if (d < preptr->data)
 
             {
@@ -75,7 +76,7 @@ void postorder(node *tree)
     }
 }
 void inorder(node *tree)
-{   
+{
     if (tree != NULL)
     {
         inorder(tree->left);
@@ -85,7 +86,7 @@ void inorder(node *tree)
 }
 int search()
 {
-    cout << "enter element you want to enter \n";
+    cout << "enter element you want to search \n";
     int i, c = 0;
     cin >> i;
     node *a = tree;
@@ -98,13 +99,13 @@ int search()
         }
         else
         {
-            if (i<a->data)
+            if (i < a->data)
             {
-                a=a->left;
+                a = a->left;
             }
-            if(i>a->data)
+            else if (i > a->data)
             {
-                a=a->right;
+                a = a->right;
             }
         }
     }
@@ -150,16 +151,16 @@ int main()
         }
         case 5:
         {
-            int f=search();
-                if (f==0)
-                {
-                    cout<<"\nits not \n";
-                }
-                if (f==1)
-                {
-                    cout<<"\nits is \n";
-                }
-                
+            int f = search();
+            if (f == 0)
+            {
+                cout << "\nits not \n";
+            }
+            if (f == 1)
+            {
+                cout << "\nits is \n";
+            }
+
             break;
         }
         case 6:
